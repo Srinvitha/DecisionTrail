@@ -27,6 +27,7 @@ It also supports **live learning**: add a new piece of information through the U
 
 <details>
 <summary>Detailed Developer Architecture</summary>
+
 ```mermaid
 flowchart TD
     subgraph Data["Seed Data"]
@@ -65,6 +66,7 @@ flowchart TD
     H -- "teaches new fact via UI" --> F
     F -- "retain(new fact)" --> C
 ```
+
 </details>
 
 **Plain-text summary of the flow:**
@@ -216,14 +218,10 @@ This allows the system to evolve as organizational knowledge changes over time.
 
 ## 📸 Screenshots
 
-[PLACEHOLDER: add 2-4 screenshots here, e.g.]
-
-```
 ![HomePage + chat](screenshots/home.png)
 ![Answer card](screenshots/mode1q1.png)
-![Answer card](screenshots/mode2q4.png)
+![Answer card2](screenshots/mode2q4.png)
 ![Teach DecisionTrail panel](screenshots/teach.png)
-```
 
 ---
 
