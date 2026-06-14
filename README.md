@@ -23,6 +23,10 @@ It also supports **live learning**: add a new piece of information through the U
 
 ## 🏗 Architecture
 
+![DecisionTrail Architecture](assets/architecture.png)
+
+<details>
+<summary>Detailed Developer Architecture</summary>
 ```mermaid
 flowchart TD
     subgraph Data["Seed Data"]
@@ -61,6 +65,7 @@ flowchart TD
     H -- "teaches new fact via UI" --> F
     F -- "retain(new fact)" --> C
 ```
+</details>
 
 **Plain-text summary of the flow:**
 
@@ -186,7 +191,7 @@ Open the printed local URL (default `http://localhost:8501`).
 
 ## 🎥 Demo
 
-- **Live demo:** [PLACEHOLDER: deployed Streamlit URL, if deployed]
+- **Live Demo:** Run locally via Streamlit
 - **Demo video:** [PLACEHOLDER: YouTube link]
 
 ### Suggested demo flow
@@ -199,14 +204,24 @@ Open the printed local URL (default `http://localhost:8501`).
 6. Re-ask question 2 — observe how the answer incorporates the new information
 
 ---
+## Continuous Learning
+
+DecisionTrail is not a static knowledge base.
+
+Users can add new customer feedback, meeting notes, or decisions directly through the UI.
+
+New information is immediately retained into the Hindsight memory bank and influences future investigations.
+
+This allows the system to evolve as organizational knowledge changes over time.
 
 ## 📸 Screenshots
 
 [PLACEHOLDER: add 2-4 screenshots here, e.g.]
 
 ```
-![Hero + chat](screenshots/hero.png)
-![Memory Reconstruction card](screenshots/reconstruction.png)
+![HomePage + chat](screenshots/home.png)
+![Answer card](screenshots/mode1q1.png)
+![Answer card](screenshots/mode2q4.png)
 ![Teach DecisionTrail panel](screenshots/teach.png)
 ```
 
