@@ -26,7 +26,7 @@ It also supports **live learning**: add a new piece of information through the U
 ![DecisionTrail Architecture](assets/architecture.png)
 
 <details>
-<summary>Detailed Developer Architecture</summary>
+<summary><strong>Detailed Developer Architecture</strong></summary>
 
 ```mermaid
 flowchart TD
@@ -206,7 +206,7 @@ Open the printed local URL (default `http://localhost:8501`).
 6. Re-ask question 2 — observe how the answer incorporates the new information
 
 ---
-## Continuous Learning
+## 📈 Continuous Learning
 
 DecisionTrail is not a static knowledge base.
 
