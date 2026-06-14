@@ -194,7 +194,7 @@ Open the printed local URL (default `http://localhost:8501`).
 ## 🎥 Demo
 
 - **Live Demo:** Run locally via Streamlit
-- **Demo video:** [\[Using Hindsight to Give AI Long-Term Organizational Memory\]](https://youtu.be/PQFg61eqnSA)
+- **Demo video:** [Using Hindsight to Give AI Long-Term Organizational Memory](https://youtu.be/PQFg61eqnSA)
 
 ### Suggested demo flow
 
