@@ -1,4 +1,4 @@
-# 🧠 DecisionTrail
+# DecisionTrail
 
 **An institutional knowledge engine that reconstructs *why* your company made the decisions it made — and how stakeholder opinions evolved over time.**
 
@@ -106,7 +106,7 @@ This project is built around three Hindsight operations, all against a single me
 
 **Live learning loop:** when a user adds a new fact through the "➕ Teach DecisionTrail something new" panel, it's immediately `retain()`-ed into the same bank. A follow-up `reflect()` call explains what changed and what it might imply — demonstrating that the memory bank is a living system, not a static preloaded dataset.
 
-> [PLACEHOLDER: add 1-2 sentences here about your actual demo-day observation — e.g. "In our demo, after teaching DecisionTrail that Acme Corp's renewal depends on dark mode, re-asking 'who would oppose revisiting dark mode' produced a noticeably different answer."]
+> During testing, after teaching DecisionTrail that Acme Corp's renewal depended on dark mode shipping by July, follow-up investigations began incorporating renewal risk and customer retention concerns into their reasoning. This demonstrated that newly retained memories immediately influenced future reflections.
 
 ---
 
@@ -114,7 +114,7 @@ This project is built around three Hindsight operations, all against a single me
 
 - **Memory layer:** [Hindsight Cloud](https://ui.hindsight.vectorize.io) (`hindsight-client` Python SDK)
 - **UI:** [Streamlit](https://streamlit.io)
-- **LLM:** synthesis is performed by Hindsight's `reflect()` (model configured at the Hindsight org/bank level — see [PLACEHOLDER: confirm which LLM provider your Hindsight org uses, in Bank Configuration > Configuration tab])
+- **LLM:** synthesis is performed by Hindsight's `reflect()` (Hindsight Cloud Reflect (Gemini-backed configuration))
 - **Language:** Python 3.10
 
 ---
@@ -140,7 +140,7 @@ decisiontrail/
 ### 1. Clone and create a virtual environment
 
 ```bash
-git clone [PLACEHOLDER: your repo URL]
+git clone https://github.com/Srinvitha/DecisionTrail
 cd decisiontrail
 python -m venv venv
 # Windows:
@@ -225,4 +225,4 @@ Open the printed local URL (default `http://localhost:8501`).
 
 Built with [Hindsight](https://hindsight.vectorize.io) by [Vectorize](https://github.com/vectorize-io/hindsight) — a memory layer that gives AI agents the ability to remember, recall, and improve over time.
 
-[PLACEHOLDER: your name / team name]
+By Srinvitha Nutakki
